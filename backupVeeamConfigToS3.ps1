@@ -1,10 +1,7 @@
 # Backup Veeam Config to AWS S3
 #
-# Description: Looks for synthetic full backup files and uploads
-# the most recent ones to bucket in S3. After a successful upload,
-# it will delete older backup files on S3 since archive data is
-# currently stored in tape library. Potential to use AWS Glacier
-# in the future
+# Description: Looks for Veeam config backup files and uploads
+# the most recent one to a bucket in S3. 
 # Created by James Davis 17/10/2018
 #
 
